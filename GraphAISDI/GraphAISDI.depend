@@ -47,3 +47,47 @@
 
 1516810346 /home/baksiu/Desktop/Programming/C++/AISDI/GraphAISDI/GraphAISDI/ShowBridges.h
 
+1516952927 source:/home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/CheckBridges.cpp
+	"CheckBridges.h"
+
+1516952846 /home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/CheckBridges.h
+	<iostream>
+	<vector>
+	<stdexcept>
+	<queue>
+	"Graph.h"
+
+1516952015 /home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/Graph.h
+	<iostream>
+	<vector>
+	<stdexcept>
+
+1516952015 source:/home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/Graph.cpp
+	"Graph.h"
+
+1516952746 source:/home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/main.cpp
+	<iostream>
+	<vector>
+	"Graph.h"
+	"MakeGraph.h"
+	"CheckBridges.h"
+	"ShowBridges.h"
+
+1516952015 /home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/MakeGraph.h
+	<iostream>
+	<vector>
+	<stdexcept>
+	"Graph.h"
+
+1516953250 /home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/ShowBridges.h
+	"Graph.h"
+	"MakeGraph.h"
+	"CheckBridges.h"
+	"ShowBridges.h"
+
+1516952015 source:/home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/MakeGraph.cpp
+	"MakeGraph.h"
+
+1516953260 source:/home/mion/s/169/bkulik/Desktop/GraphAISDI/GraphAISDI/ShowBridges.cpp
+	"ShowBridges.h"
+

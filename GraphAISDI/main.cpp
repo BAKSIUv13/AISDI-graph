@@ -13,21 +13,6 @@
 
 int main()
 {
-    Graph grafik = MakeGraph::makeGraphFromStdIn();
-
-    std::vector<Edge> toWrite = CheckBridges::bridges(grafik);
-
-    Edge edge;
-    for (auto i = toWrite.begin(); i < toWrite.end(); ++i)
-    {
-        edge = *i;
-
-        std::cout << edge.vertexOne << " " << edge.vertexTwo << "\n";
-    }
-
-    std::cout << "\n";
-	std::cin.get();
-	std::cin.get();
-
+    ShowBridges::show(MakeGraph::makeGraphFromStdIn());
 	return 0;
 }

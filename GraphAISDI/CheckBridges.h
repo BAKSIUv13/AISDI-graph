@@ -13,10 +13,9 @@ class CheckBridges
 private:
 
     static void dfs(const Graph& graph, std::vector<bool>& isVisited, unsigned int vertex);
+    static bool isBridge(const Graph& graph, const unsigned int& vertexOne, const unsigned int& vertexTwo);
 
 public:
-
-    static bool isBridge(const Graph& graph, const unsigned int& vertexOne, const unsigned int& vertexTwo);
 
     static std::vector<Edge> bridges(const Graph& graph);
 

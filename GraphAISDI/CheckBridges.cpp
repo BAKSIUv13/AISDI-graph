@@ -37,7 +37,7 @@ bool CheckBridges::isBridge(const Graph& graph, const unsigned int& x, const uns
 
     dfs(graph, isVisited, z); // DFS run
 
-    for(int i = 0; i < graph.getSize() ; ++i)
+    for(unsigned int i = 0; i < graph.getSize() ; ++i)
     {
         if(!isVisited[i])
         {
